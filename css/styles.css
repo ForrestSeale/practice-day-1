@@ -1,0 +1,29 @@
+.blue {
+  background-color: #0000ff;
+  height: 200px;
+}
+
+.red {
+  background-color: #e40007;
+  height: 200px;
+}
+
+.green {
+  background-color: #008000;
+  height: 200px;
+}
+
+.purple {
+  background-color: #800080;
+  height: 200px;
+}
+
+.pink {
+  background-color: #ff5c77;
+  height: 200px;
+}
+
+.orange {
+  background-color: #ff6c00;
+  height: 200px;
+}
