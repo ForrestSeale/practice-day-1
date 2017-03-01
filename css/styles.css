@@ -1,29 +1,99 @@
+/*UNIVERSALS*/
+
 .blue {
   background-color: #0000ff;
+  border: 4px solid #00008F;
   height: 200px;
 }
 
 .red {
   background-color: #e40007;
+  border: 4px solid #7A0004;
   height: 200px;
 }
 
 .green {
   background-color: #008000;
+  border: 4px solid #003D00;
   height: 200px;
 }
 
 .purple {
   background-color: #800080;
+  border: 4px solid #3D003D;
   height: 200px;
 }
 
 .pink {
   background-color: #ff5c77;
+  border: 4px solid #E00025;
   height: 200px;
 }
 
 .orange {
   background-color: #ff6c00;
+  border: 4px solid #ff9300;
   height: 200px;
+}
+
+/*BUNNIES*/
+
+.happy-bunnies {
+  height: 300px;
+  background-color: yellow;
+  width: 40%;
+}
+
+.sad-bunnies {
+  height: 300px;
+  background-color: green;
+  width: 30%;
+}
+
+.mad-bunnies {
+  height: 300px;
+  background-color: orange;
+  width: 20%;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 550px) {
+  .happy-bunnies {
+    background-color: purple;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  .sad-bunnies {
+    background-color: red;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .mad-bunnies {
+    background-color: blue;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mad-bunnies {
+    background-color: blue;
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .blue, .red, .green, .purple, .pink, .orange {
+    background-color: #000;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blue, .red, .green, .purple, .pink, .orange {
+    background-color: #fff;
+  }
 }
